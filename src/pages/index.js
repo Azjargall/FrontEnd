@@ -1,8 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center bg-[#f7f8f3]">
-      {/* Header pisda mine */}
+    <div className="flex min-h-screen flex-col items-center bg-[#f7f8f3]"
       <div className="fixed flex w-full justify-center bg-white lg:bg-[#f7f8f3]">
         <div className="hidden items-center justify-between gap-2 px-8 py-4 md:w-[738px] lg:mx-8 lg:flex lg:w-[860px] lg:gap-8 lg:px-0 xl:w-[1225px]">
           <div className="flex w-full items-center justify-between gap-2 lg:gap-8 xl:justify-start">
@@ -61,7 +60,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Body */}
       <div className="w-[370px] sm:w-[640px] md:w-[738px] lg:w-[860px] xl:w-[1225px]">
         <div className="mt-20 flex items-center lg:mt-52">
           <div className="mt-32 w-3/5">
@@ -602,7 +600,6 @@ export default function Home() {
           </svg>
         </button>
       </div>
-      {/* Footer */}
       <div className="mt-20 flex w-full justify-center bg-[#303669] p-12">
         <div className="w-[370px] sm:w-[640px] md:w-[738px] lg:w-[860px] xl:w-[1225px]">
           <div className="flex grid-cols-3 flex-col gap-8 sm:grid">
